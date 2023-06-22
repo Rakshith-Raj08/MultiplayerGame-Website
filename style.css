@@ -56,9 +56,16 @@ body::after {
       }
 }
 
-.content {
-    display: flex;
-    z-index: 1;
+.content{
+  display:flex;
+  z-index: 1;
+  height: 100vh; 
+  flex-direction:column;
+}
+
+
+.content2 {
+    display: flex; 
     color: #dbd8e3;
     justify-content: center;
     align-items: center;
@@ -96,6 +103,7 @@ button {
 
 button:hover {
   color:black;
+  
 }
 span {
   transition: all 0.7s;
@@ -161,6 +169,16 @@ button:hover .fourth {
   left: 0;
 }
 
+.image-button {
+  width: 51.2px;
+  height: 51.2px;
+  border: none;
+  padding: 0;
+  margin: 30px;
+}
 
-
-
+.volume{
+  width: 25.6px;
+  height: 25.6px;
+  
+}
