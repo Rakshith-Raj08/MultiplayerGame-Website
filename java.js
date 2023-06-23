@@ -11,5 +11,6 @@ buttonImage.addEventListener("click", function() {
     audio.play();
     audio.loop = true;
   }
-});
+  });
 
+ 
