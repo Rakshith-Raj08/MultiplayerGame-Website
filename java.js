@@ -13,4 +13,3 @@ buttonImage.addEventListener("click", function() {
   }
 });
 
-

@@ -1,0 +1,39 @@
+html{
+    animation: fadeInAnimation 1s ease-in forwards;
+    
+  }
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    font-family: 'Press Start 2P';
+    
+}
+
+body::after {
+    content: "";
+    background-image: url('Assests/Images/abstract-background.avif'); 
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75; 
+    z-index: -1;
+    
+}
